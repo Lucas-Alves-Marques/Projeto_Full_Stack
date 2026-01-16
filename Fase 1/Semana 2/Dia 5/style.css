@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pokemon {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+    padding: 10px 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.pokemon img {
+    width: 80px;
+    height: 80px;
+}
+
+#busca{
+
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 5px 3px;
+    border-radius: 5px;
+    border: #898989 2px solid;
+}
+
+#verMais{
+
+    margin-top: 20px;
+    background: rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.msgAlert{
+
+    margin: 10px 20px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(238, 124, 124);
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+
+}
