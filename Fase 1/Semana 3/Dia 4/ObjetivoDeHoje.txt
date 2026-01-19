@@ -1,0 +1,15 @@
+Dia 4 – Git Avançado
+
+Atividades:
+
+Criar branches: feature/adicionar-tarefa, feature/remover-tarefa.
+
+Usar merge e rebase.
+
+Criar tags (v1.0.0).
+
+Usar commits semânticos.
+
+📘 Desafio:
+
+Simular um fluxo real de equipe com branches e PRs (pode fazer solo no GitHub).
