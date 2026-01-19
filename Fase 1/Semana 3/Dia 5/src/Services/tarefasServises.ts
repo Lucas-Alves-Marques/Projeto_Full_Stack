@@ -31,3 +31,15 @@ export function atualizarTarefa(dados: atualizarTarefaDTO): atualizarTarefaDTO |
     return banco[index];
 
 }
+
+export function deletarTarefa(id: number): boolean {
+
+    const index = banco.findIndex(t => t.id === id);
+  
+    if (index === -1) return false;
+  
+    banco.splice(index, 1);
+
+    return true;
+  
+}
