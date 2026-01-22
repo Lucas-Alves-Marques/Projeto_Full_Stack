@@ -27,6 +27,14 @@ O aprendizado é estruturado em módulos (Fases), divididos por semanas e dias, 
 - Configuração de ambiente (`tsconfig.json`).
 - Tipagem estática e interfaces.
 
+### Fase 2: Ecossistema Frontend
+
+#### 📅 Semana 1: React e Frameworks Modernos
+- Construção de interfaces modernas com **React.js**.
+- Desenvolvimento de aplicações escaláveis com **Next.js** (App Router).
+- Gerenciamento de estado global com **Context API**.
+- Estilização responsiva e produtiva com **Tailwind CSS**.
+
 ---
 
 ## 🛠️ Tecnologias Principais
@@ -34,18 +42,29 @@ O aprendizado é estruturado em módulos (Fases), divididos por semanas e dias, 
 - **Node.js**: Ambiente de execução para o JavaScript no servidor.
 - **JavaScript (ES6+)**: Linguagem base para toda a trilha.
 - **TypeScript**: Superset de JavaScript para adicionar tipagem forte.
+- **React & Next.js**: Frameworks principais para o desenvolvimento frontend.
+- **Tailwind CSS**: Framework de estilização utilitária.
 - **Git/GitHub**: Para versionamento e organização do código.
 
 ---
 
 ## 🚀 Como Executar
 
-Para rodar qualquer um dos exercícios, navegue até a pasta correspondente e execute o script principal usando o Node:
+Para rodar qualquer um dos exercícios, navegue até a pasta correspondente e execute o script principal:
 
+### Backend (Fase 1)
 ```bash
 # Exemplo para rodar o Dia 1 da Semana 2
 cd "Fase 1/Semana 2/Dia 1"
 node index.js
+```
+
+### Frontend (Fase 2)
+```bash
+# Exemplo para rodar o dashboard
+cd "Fase 2/Semana 1/Dia 1/dashboard"
+npm install
+npm run dev
 ```
 
 ---
